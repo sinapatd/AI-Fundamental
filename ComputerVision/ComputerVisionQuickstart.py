@@ -13,8 +13,8 @@ local_image_path = "resources\\faces.jpg"
 remote_image_url = "https://raw.githubusercontent.com/Azure-Samples/cognitive-services-sample-data-files/master/ComputerVision/Images/landmark.jpg"
 
 # Authenticate
-subscription_key = "275259b4619444199a8e16bb5a3ea368"
-endpoint = "https://mycomputervision3004.cognitiveservices.azure.com/"
+subscription_key = ""
+endpoint = ""
 
 computervision_client = ComputerVisionClient(endpoint, CognitiveServicesCredentials(subscription_key))
 
